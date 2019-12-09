@@ -21,8 +21,18 @@
 
 p {
     font-size: 20px;
+    padding: 18px 18px;
 }
 
 .image-blocks {
     padding: 15px 15px;
+}
+
+#forms-section {
+    background: rgb(192, 192, 192);
+}
+
+#google-map {
+    display: block;
+    margin: auto;
 }

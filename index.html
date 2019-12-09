@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
     <title>Living Life Counseling</title>
@@ -33,20 +34,23 @@
                     Home
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="#about-section">
                     About
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="#our-team">
                     Our Team
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="#forms-section">
                     Forms
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href ="#location-section">
+                        Location
+                    </a>
+                <a class="navbar-item" href ="#contact-section">
                     Contact
                 </a>
 
-                <div class="navbar-item has-dropdown is-hoverable">
+                <!-- <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
                         More
                     </a>
@@ -66,7 +70,7 @@
                             Report an issue
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- <div class="navbar-end">
@@ -95,7 +99,7 @@
     </section>
 
 
-    <section class="hero">
+    <section class="hero" id="about-section">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title" style="text-align: center">
@@ -197,23 +201,21 @@
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
-                                        <figure class="image is-48x48">
-                                            <img src="https://bulma.io/images/placeholders/96x96.png"
-                                                alt="Placeholder image">
+                                        
+                                           
                                         </figure>
                                     </div>
                                     <div class="media-content">
                                         <p class="title is-4">John Smith</p>
-                                        <p class="subtitle is-6">@johnsmith</p>
+                                       
                                     </div>
                                 </div>
 
                                 <div class="content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                                    <a href="#">#css</a> <a href="#">#responsive</a>
-                                    <br>
-                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    Phasellus nec iaculis mauris. 
+                        
+                                   
                                 </div>
                             </div>
                         </div>
@@ -229,23 +231,20 @@
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
-                                        <figure class="image is-48x48">
-                                            <img src="https://bulma.io/images/placeholders/96x96.png"
-                                                alt="Placeholder image">
+                                        
+                                           
                                         </figure>
                                     </div>
                                     <div class="media-content">
                                         <p class="title is-4">John Smith</p>
-                                        <p class="subtitle is-6">@johnsmith</p>
+                                       
                                     </div>
                                 </div>
 
                                 <div class="content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                                    <a href="#">#css</a> <a href="#">#responsive</a>
-                                    <br>
-                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    Phasellus nec iaculis mauris. 
+                                    
                                 </div>
                             </div>
                         </div>
@@ -262,23 +261,19 @@
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
-                                        <figure class="image is-48x48">
-                                            <img src="https://bulma.io/images/placeholders/96x96.png"
-                                                alt="Placeholder image">
+                                        
+                                           
                                         </figure>
                                     </div>
                                     <div class="media-content">
                                         <p class="title is-4">John Smith</p>
-                                        <p class="subtitle is-6">@johnsmith</p>
+                                    
                                     </div>
                                 </div>
 
                                 <div class="content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                                    <a href="#">#css</a> <a href="#">#responsive</a>
-                                    <br>
-                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    Phasellus nec iaculis mauris. 
                                 </div>
                             </div>
                         </div>
@@ -319,7 +314,7 @@
                             quality care.
                         </p>
                 </div>
-                <nav class="level is-mobile">
+                <!-- <nav class="level is-mobile">
                     <div class="level-left">
                         <a class="level-item" aria-label="reply">
                             <span class="icon is-small">
@@ -337,22 +332,43 @@
                             </span>
                         </a>
                     </div>
-                </nav>
+                </nav> -->
             </div>
         </article>
     </div>
     <!-- About End -->
 
-    <!-- PDF Start -->
-    <a href="docs/ClientForm1.pdf" target="_blank">Demographic Info Form</a>
-    <!-- PDF End -->
+    <!-- Forms Section Start -->
+    <section class="hero is-link is-fullheight-with-navbar" id="forms-section">
+            <div class="hero-body">
+              <div class="container">
+                <p class="title" style="text-align: center">
+                  Forms Section
+                </p>
+                <a href="docs/ClientForm1.pdf" target="_blank" >Demographic Info Form  
+                    <i class="far fa-file-pdf"></i>
+                </a>
+                <br>
+                <a href="docs/llc_client-info.pdf" target="_blank" >Client Info Form
+                    <i class="far fa-file-pdf"></i>
+                </a>
+                <br>
+                <a href="docs/llc_client-contract.pdf" target="_blank" >Client Contract Form
+                    <i class="far fa-file-pdf"></i>
+                </a>
+   
+              </div>
+            </div>
+          </section>
+    
+    <!-- Forms Section End -->
 
     <!-- Location -->
-    <section class="hero is-primary">
+    <section class="hero is-primary" id="location-section">
             <div class="hero-body">
               <div class="container">
                 <h1 class="title" style="text-align: center">
-                  Location
+                  Location and Hours
                 </h1>
                 <h2 class="subtitle">
                   <!-- Primary subtitle -->
@@ -364,22 +380,113 @@
             <br>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.5757089102985!2d-97.70116598515006!3d30.617728698217803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644d42a6d48e32d%3A0x22a8def415c70827!2s1504%20Leander%20Rd%2C%20Georgetown%2C%20TX%2078628!5e0!3m2!1sen!2sus!4v1575321373816!5m2!1sen!2sus"
-              width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" style="margin: auto"></iframe>
+              width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" id="google-map"></iframe>
               <br>
           </section>
           
+<!-- Contact Section -->
+<section class="hero is-link is-fullheight-with-navbar" id="forms-section">
+        <div class="hero-body">
+          <div class="container">
+            <p class="title">
+              Contact Section
+            </p>
+           
 
+            <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Name">
+                    </div>
+                  </div>
+                  
+                  <!-- <div class="field">
+                    <label class="label">Username</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                      </span>
+                    </div>
+                    <p class="help is-success">This username is available</p>
+                  </div> -->
+                  
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input is-danger" type="email" placeholder="youremail@youremail.com" >
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <!-- <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </span> -->
+                    </div>
+                    <!-- <p class="help is-danger">This email is invalid</p> -->
+                  </div>
+                  
+                  <!-- <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <div class="select">
+                        <select>
+                          <option>Select dropdown</option>
+                          <option>With options</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div> -->
+                  
+                  <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Message..."></textarea>
+                    </div>
+                  </div>
+                  
+                  <!-- <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="#">terms and conditions</a>
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <div class="control">
+                      <label class="radio">
+                        <input type="radio" name="question">
+                        Yes
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="question">
+                        No
+                      </label>
+                    </div>
+                  </div> -->
+                  
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-link">Submit</button>
+                    </div>
+                    <!-- <div class="control">
+                      <button class="button is-link is-light">Cancel</button>
+                    </div>
+                  </div> -->
+          </div>
+        </div>
+      </section>
+<!-- End Contact Section -->
     <!-- Footer Start -->
-    <footer class="footer">
-       
-
-      
-
+    <footer class="footer" id="contact-section">
             <div class="content has-text-centered">
                     <p>
                         Email: <a href="mailto: livinglifecounselingllc@gmail.com? subject=subject text">livinglifecounselingllc@gmail.com</a>
-                             Phone: (512) 966-5405
-                        
+                             Phone: (512) 966-5405                        
                     </p>
                 </div>
     </footer>
