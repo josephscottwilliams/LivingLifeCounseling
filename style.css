@@ -7,7 +7,7 @@
 }
 
 #hero-img {
-    background: url(images/bruce-hong-YRD-AkNQasw-unsplash.jpg) center / cover;
+    background: url(images/philipp-lublasser-LNYdZutqsi0-unsplash.jpg) center / cover;
    
 }
 
@@ -15,7 +15,7 @@
     font-size: 70px;
 }
 
-#our-team {
+#therapists-section {
     background: rgb(208, 208, 208);
 }
 
@@ -29,10 +29,126 @@ p {
 }
 
 #forms-section {
-    background: rgb(192, 192, 192);
+    /* background: rgb(192, 192, 192); */
+    margin: 20px 400px;
+   
 }
 
 #google-map {
     display: block;
-    margin: auto;
+    /* margin: 15px 15px 15px 40px; */
+    margin: 40px auto;
+    border-radius: 4px;
 }
+
+.our-mission {
+    padding: 0px 15px;
+    font-size: 25px;
+}
+
+
+#mission-div {
+    background-color: rgb(168, 168, 168);
+    border-radius: 5px;
+}
+
+.about-text {
+    font-size: 25px;
+}
+
+/* div.hero-body {
+    margin: 20px 400px;
+} */
+
+
+/* Accordion */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  /* Accordion End */
+
+  .faq-question {
+      background-color: rgb(242, 255, 245);
+      font-size: 20px;
+      border-radius: 4px;
+
+  }
+
+  #faq-section {
+      padding: 10px 200px;
+      background: url(images/scott-webb-hDyO6rr3kqk-unsplash.jpg);
+      background-size: cover;
+      height: 900px;
+      
+  }
+
+
+.container-custom {
+ 
+        position: relative;
+        text-align: center;
+        color: white;    
+      
+}
+
+  .centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+  }
+
+  #location-section {
+      background: url(images/trianglify-lowres.png);
+      background-size: cover;
+  }
+
+  /* parrallax */
+  .parallax {
+    /* The image used */
+    background-image: url("images/plush-design-studio-q10VITrVYUM-unsplash.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
