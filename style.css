@@ -1,13 +1,17 @@
-/* body {
-    padding: 15px 15px;
-} */
+body {
+    /* padding: 15px 15px; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Bad Script', cursive;
+    /* font-family: 'Bilbo', cursive; */
+}
 
 #navbar-custom {
     background: white;
 }
 
 #hero-img {
-    background: url(images/philipp-lublasser-LNYdZutqsi0-unsplash.jpg) center / cover;
+    background: url(images/family_counseling.jpg) center / cover;
+    width: 100%;
    
 }
 
