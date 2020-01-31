@@ -1,35 +1,78 @@
+/* Global Elements */
 body {
-    /* padding: 15px 15px; */
-    /* font-family: 'Shadows Into Light', cursive; */
     font-family: 'Bad Script', cursive;
-    /* font-family: 'Bilbo', cursive; */
+}
+p,li {
+    font-size: 20px;
+    padding: 18px 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+title {
+    font-size: 38px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* General Elements */
+
+/* Navbar Section */
+#our-mission {
+    padding: 60px 80px 40px;
+    width: 100%;
+}
+.our-mission {
+    padding: 18px 15px;
+    font-size: 25px;
+}
+
+/* Three Subtopics */
+#three-subtopics {
+    padding: 75px 0px;
+    background-color: #eaeaea;
+}
+.power-text {
+    font-size: 25px;
+    padding: 30px;
+}
+/* Power Statements */
+#power-statements {
+    padding: 75px 0px;
+    /* background: yellow; */
+}
+.power-card-title {
+    padding: 25px 0 0 0;
+}
+.power-card {
+    padding: 25px;
+    /* background: orange; */
+    /* margin: 15px 15px; */
 }
 
 #navbar-custom {
     background: white;
 }
-
 #hero-img {
     background: url(images/family_counseling.jpg) center / cover;
-    width: 100%;
-   
+    width: 100%;  
 }
-
 #hero-font {
     font-size: 70px;
+    font-family: 'Bad Script', cursive; 
 }
-
-#therapists-section {
+/* #therapists-section {
     background: rgb(208, 208, 208);
-}
+} */
 
-p {
-    font-size: 20px;
-    padding: 18px 18px;
-}
 
+
+.label {
+    font-size: 22px;
+    font-family: 'Bad Script', cursive;
+
+}
 .image-blocks {
     padding: 15px 15px;
+    border-radius: 19px;
 }
 
 #forms-section {
@@ -45,24 +88,13 @@ p {
     border-radius: 4px;
 }
 
-.our-mission {
-    padding: 0px 15px;
-    font-size: 25px;
+
+
+
+
+div.hero-body {
+    margin: 0 auto;
 }
-
-
-#mission-div {
-    background-color: rgb(168, 168, 168);
-    border-radius: 5px;
-}
-
-.about-text {
-    font-size: 25px;
-}
-
-/* div.hero-body {
-    margin: 20px 400px;
-} */
 
 
 /* Accordion */
@@ -136,16 +168,21 @@ p {
     transform: translate(-50%, -50%);
     font-size: 40px;
   }
-
+ 
   #location-section {
-      background: url(images/trianglify-lowres.png);
+      /* background: url(images/trianglify-lowres.png); */
+      background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,236,233,1) 0%, rgba(98,217,169,1) 57%);
       background-size: cover;
   }
 
   /* parrallax */
   .parallax {
     /* The image used */
-    background-image: url("images/plush-design-studio-q10VITrVYUM-unsplash.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.8)), url("images/plush-design-studio-q10VITrVYUM-unsplash.jpg");
+    /* opacity: .5; */
+    
+
   
     /* Set a specific height */
     height: 500px;
@@ -156,3 +193,51 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  #contact-section {
+    margin: 0 300px;
+   
+}
+
+  .new2LLCHeading {
+      font-size: 24px;
+      font-weight: 580;
+  }
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+
+.card {
+    border-style: solid 2px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    padding: 30px 10px;
+    margin: 10px 10px;
+}
+
+.navbar-link, .navbar-item {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.threeImageText {
+   font-size: 24px; 
+}
+
+.leave-message {
+    font-size: 15px;
+}
+
+.section-heading-div {
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+.location-info {
+    padding: 40px 0 0 200px;
+}
+#location-heading {
+    font-size: 30px;
+    font-family: 'Bad Script', cursive;
+}
