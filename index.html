@@ -5,13 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Sheets html element -->
+    <meta name="description" content="contact form example">
+
     <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="style.css">
+
+
     <script src="index.js"></script>
+         <!-- Submit the Form to Google Using "AJAX" -->
+         <script data-cfasync="false" type="text/javascript"
+         src="form-submission-handler.js"></script>
+
+    <script data-cfasync="false" type="text/javascript"
+    src="form-submission-handler.js"></script>
+
+
     <title>Living Life Counseling</title>
+   
 </head>
 
 <body>
@@ -29,7 +43,7 @@
                                 <i class="fas fa-home"></i>
                             </a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link" href="#">
+                            <a class="navbar-link" href="pages/marriage-and-family.html">
                                 Marriage and Family
                             </a>
                         <div class="navbar-dropdown is-boxed">
@@ -46,7 +60,7 @@
                     </div>
 
                     <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link" href="#">
+                            <a class="navbar-link" href="pages/individual-counseling.html">
                                 Individual Counseling
                             </a>
                         <div class="navbar-dropdown is-boxed">
@@ -68,7 +82,7 @@
                         </div>
                     </div>
 
-                            <a class="navbar-item" href="#">
+                            <a class="navbar-item" href="pages/children-and-adolescents.html">
                                 Children and Adolescents
                             </a>
                             <a class="navbar-item" href="#faq-section">
@@ -79,9 +93,7 @@
                             </a>
                             <a class="navbar-item" href="docs/ClientInfoForms.pdf" target="_blank">
                                 Client Forms
-                            <a class="navbar-item" href="#faq-section">
-                                Fees and Insurance
-                            </a>
+                            
                             <a class="navbar-item" href="#contact-section">
                                 Contact
                             </a>
@@ -94,8 +106,9 @@
         <div class="hero-body" id="hero-img">
             <div class="container">
                 <p class="title" id="hero-font">
-                    Living Life Counseling
+                    Living Life Counseling and Associates
                 </p>
+  
                 <!-- <p>
                     and Associates
                 </p> -->
@@ -112,14 +125,18 @@
         <div>
             <h2 class="subtitle">
                 <div style="text-align: center" class="our-mission">
-                    <p class="our-mission">Our focus is <i>you</i>. We want you to feel welcome and
+                    <p class="our-mission">
+                        Our Mission is to offer quality counseling services with compassion, hope, and empowerment to all who need change to reach their full potential.
+                        Our focus is <i>you</i>. 
+                        We want you to feel welcome and
                         accepted from the
                         moment you open our doors.
                     We provide professional and affordable counseling for all
                         ages and walks of life and
                     we strive to enable you to face life's challenges so that you
                         feel better
-                        than when you arrived.</p>
+                        than when you arrived.
+                    </p>
                 </div>
             </h2>
         </div>
@@ -139,7 +156,7 @@
                         <img src="images/woman_thinking.jpg" alt="" class="image-blocks">
                     </a>
                     <div>
-                        <span class="threeImageText"><strong>Individual Counseling</strong></span>
+                        <span class="threeImageText"><a href="pages/individual-counseling.html"> <strong>Individual Counseling</strong></a></span>
                     </div>
                 </div>
                 <div class="column is-4 container-custom">
@@ -147,7 +164,7 @@
                         <img src="images/family.jpg" alt="" class="image-blocks">
                     </a>
                     <div>
-                        <span class="threeImageText"><strong>Marriage & Family</strong> </span>
+                        <span class="threeImageText"><a href="pages/marriage-and-family.html"> <strong>Marriage & Family</strong> </a></span>
                     </div>
                 </div>
                 <div class="column is-4 container-custom">
@@ -155,7 +172,7 @@
                         <img src="images/children_sharing.jpg" alt="" class="image-blocks">
                     </a>
                     <div>
-                        <span class="threeImageText"><strong>Child & Adolescent</strong> </span>
+                        <span class="threeImageText"><a href="pages/children-and-adolescents.html"><strong>Child & Adolescent</strong> </a> </span>
                     </div>
                 </div>
             </div>
@@ -168,12 +185,7 @@
                 <div class="power-card-title">
                     <h1 class="title" style="text-align: center">Live the life you envision for yourself!</h1>
                 </div>
-                    <p class="power-text"> We're here for you. We value your trust and want you to feel comfortable and
-                        accepted without
-                        feeling embarrassed or judged.
-                        At Living Life Counseling, we truly believe you are doing the best you can and we want to help you
-                        find greater hope and power within yourself to meet and overcome challenges and struggles you are
-                        faced with.
+                    <p class="power-text"> We're here for you. We value your trust and want you to feel comfortable and accepted. At Living Life Counseling we truly believe you are doing the best you can.  We want to help you find greater hope and power within yourself to meet and overcome challenges and struggles you are faced with. Our goal is to provide you with tools and skills to equip you to meet life's many challenges and reach your personal goals.
                     </p>
             </div>
             <div class="column is-6">
@@ -185,19 +197,15 @@
         <div class="columns">
 
             <div class="column is-6">
-                <img src="images/nitish-meena-s7rU_y27PJU-unsplash.jpg" alt="" class="image-blocks">
+                <img src="images/daisy.jpg" alt="" class="image-blocks">
             </div>
             <div class="column is-6">
                     <div class="power-card-title">
-                            <h1 class="title" style="text-align: center">Live the life you envision for yourself!</h1>
+                            <h1 class="title" style="text-align: center">Become</h1>
+                            <p>" What lies behind you and what lies before you is nothing compared to what lies within you" </p>
                         </div>
                 <div>
-                        <p class="power-text"> We're here for you. We value your trust and want you to feel comfortable and
-                                accepted without
-                                feeling embarrassed or judged.
-                                At Living Life Counseling, we truly believe you are doing the best you can and we want to help you
-                                find greater hope and power within yourself to meet and overcome challenges and struggles you are
-                                faced with.
+                        <p class="power-text"> Oftentimes in our world we get caught up in comparisons, not being good enough, low self esteem, and all the things the world tells us that are not real.  This frequently can turn into  anxiety and depression and keeps us from becoming what we set out to be.  We want to help you have the confidence to BECOME who YOU want to become.  You are unique and different and are here for a purpose.  We believe everyone to be of value and of importance and want to assist you in becoming your very best.
                             </p>
                 </div>
                 
@@ -209,18 +217,13 @@
         <div class="columns" id="power-statements">
                 <div class="column is-6 power-card">
                     <div class="power-card-title">
-                        <h1 class="title" style="text-align: center">Live the life you envision for yourself!</h1>
+                        <h1 class="title" style="text-align: center">Life is a Journey</h1>
                     </div>
-                        <p class="power-text"> We're here for you. We value your trust and want you to feel comfortable and
-                            accepted without
-                            feeling embarrassed or judged.
-                            At Living Life Counseling, we truly believe you are doing the best you can and we want to help you
-                            find greater hope and power within yourself to meet and overcome challenges and struggles you are
-                            faced with.
+                        <p class="power-text"> Many times we get caught up in reaching the goals we have in life and forget to enjoy the journey.  Sometimes  our path takes a sharp turn we were not expecting.  Relationships get touch, children challenge us, parents are aging and have health issues.  We can also get caught in the misconception that we are a product of others. At times we get bogged down with the hard things and forget to focus on the good and the many positive things around us. We want to help you process through the many twists and turns that happen that is called Life.  We believe that we have the power to choose and to decide no matter what situations may occur.  We can let life happen to us, or we can decide our path.  We are here to help you through those detours and see beyond to a brighter future.
                         </p>
                 </div>
                 <div class="column is-6">
-                    <img src="images/anxiety_free.jpg" alt="" class="image-blocks">
+                    <img src="images/road with trees.jpg" alt="" class="image-blocks">
                 </div>
             </div>
         
@@ -309,10 +312,16 @@
                     
                     <button class="accordion faq-question">What insurances do you accept?</button>
                     <div class="panel">
-                        <p>We accept:
-                            Amerigroup, Beacon, Blue Cross Blue Shield (BCBS), Cenpatico, Cigna,
-                            Medicaid, Tricare, and Superior. We also accept out of network payments.
-                        </p>
+                        <ul>
+                            <li>Amerigroup</li>
+                            <li>Beacon</li>
+                            <li>Blue Cross Blue Shield</li>
+                            <li>Cenpatico</li>
+                            <li>Cigna</li>
+                            <li>Medicaid</li>
+                            <li>Superior</li>
+                            <li>TriCare</li>
+                        </ul>
                     </div>
 
                     <button class="accordion faq-question">What forms of payment do you accept?</button>
@@ -320,12 +329,23 @@
                         <p>You may pay via credit/debit card, check, or cash.</p>
                     </div>
 
-                    <button class="accordion faq-question">I am new to Living Life Counseling LLC, what is the best way
-                        to
-                        book an appoinment with you? </button>
+                    <button class="accordion faq-question">How do I contact you or make an appointment?</button>
                     <div class="panel">
                         <p>
-                            Give us a call for a 10-15 minute free consult.
+
+                                Call us at <a href="">512-966-5405</a> for a 10-15 minute free consult & schedule an appoinment at that time.</p>
+                                <p style="text-align: center">Needed information for insurance is:</p>
+                                
+                               
+                                <ul> 
+                                    <li>Name</li>
+                                    <li>Dat of Birth</li>
+                                    <li>Member ID</li>
+                                    <li>Address and Date of Birth of actual carrier of the insurance</li>
+                                    <li></li>
+                                </ul> 
+
+                            <!-- Give us a call for a 10-15 minute free consult.
                             Schedule an appt. at that time.
                             Needed information for insurance is Name, DOB, Member ID.
                             Address and DOB of actual carrier of the insurance.
@@ -336,21 +356,30 @@
                             ending of the appt. Following visits will be for child . Parents are welcome to voice
                             concern or
                             questions at anytime, preferably before a session begins.
-                            Following visits will be 50-60 minutes.</p>
+                            Following visits will be 50-60 minutes.</p> -->
 
                     </div>
-                    <button class="accordion faq-question">What insurances do you accept?</button>
+                    <button class="accordion faq-question">What should I expect my first visit?</button>
                     <div class="panel">
-                        <p>We accept:
-                            AMERIGROUP, Beacon, Blue Cross Blue Shield, BlueCross and BlueShield Cenpatico, Cigna,
-                            Medicaid,
-                            and TRICARE. We also accept out of network payments.
-                        </p>
+                        <p>We first want you to know how much we appreciate you taking this step to take care of yourself or your loved one.  We understand the initial anxiety of taking that step and want you to ask any questions you may have and feel comfortable walking through our doors.</p>
+                        <ul>
+                            <li style="text-align: left">  At your first visit  we will need some initial paperwork which you can download from our website under the forms tab or we can provide in our office.  
+                                    If you choose the office, please arrive 15 minutes early to fill out paperwork.  
+                                    We will provide your paperwork on a clipboard on a table to the left in our lobby where we have our cards.  
+                            </li>
+                            <li style="text-align: left">  Your counselor will be checking for you at your appt. time to ensure you have found or have the needed paperwork.</li>
+                            <li style="text-align: left">  Your first visit will last from 60-80 minutes. </li>
+                            <li style="text-align: left"> Visits for minors require a guardian to attend the first visit to meet at the beginning and ending of the appt. Following visits will be for child . Parents are welcome to voice concern or questions at anytime, preferably before a session begins. </li>
+                            <li style="text-align: left">  At the end or your visit you and your counselor will discuss your interest in returning and discuss frequency and care plan.</li>
+                            <li style="text-align: left">  Following visits will be 50-60 minutes for adults or minors.</li>
+                         
+                        </ul>
+
                     </div>
 
-                    <button class="accordion faq-question">What forms of payment do you accept?</button>
+                    <button class="accordion faq-question">What if you are not on the list with my insurance company?</button>
                     <div class="panel">
-                        <p>You may pay via credit/debit card, check, or cash.</p>
+                        <p>We would be happy to see you at our private pay rate or provide you with a superbill that you can submit for reimbursement to your insurance company.  You are required to file with your insurance if we are not currently paneled with them.</p>
                     </div>
 
                     <button class="accordion faq-question">I am new to Living Life Counseling LLC, what is the best way
@@ -380,89 +409,58 @@
 
     <!-- Contact Section -->
     <section class="hero is-fullheight-with-navbar parallax">
-        <div class="hero-body" id="contact-section">
-            <div class="container ">
-                <div class="section-heading-div">
-                    <h1 class="title" style="text-align: center">
-                        Contact Us:
-                    </h1>
-                </div>
-               
+    <!-- START HERE -->
+        <div class="container" id="contact-custom">
 
-
-                <div class="field">
-                    <label class="label">Name</label>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Name">
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label">Email</label>
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="youremail@youremail.com">
-                        <span class="icon is-small is-left">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                        <!-- <span class="icon is-small is-right">
-                        <i class="fas fa-exclamation-triangle"></i>
-                      </span> -->
-                    </div>
-                    <!-- <p class="help is-danger">This email is invalid</p> -->
-                </div>
-
-                <!-- <div class="field">
-                    <label class="label">Subject</label>
-                    <div class="control">
-                      <div class="select">
-                        <select>
-                          <option>Select dropdown</option>
-                          <option>With options</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div> -->
-
-                <div class="field">
-                    <label class="label">Message</label>
-                    <div class="control">
-                        <textarea class="textarea" placeholder="Message..."></textarea>
-                    </div>
-                </div>
-
-                <!-- <div class="field">
-                    <div class="control">
-                      <label class="checkbox">
-                        <input type="checkbox">
-                        I agree to the <a href="#">terms and conditions</a>
-                      </label>
-                    </div>
-                  </div>
-                  
-                  <div class="field">
-                    <div class="control">
-                      <label class="radio">
-                        <input type="radio" name="question">
-                        Yes
-                      </label>
-                      <label class="radio">
-                        <input type="radio" name="question">
-                        No
-                      </label>
-                    </div>
-                  </div> -->
-
-                <div class="field is-grouped">
-                    <div class="control">
-                        <button class="button is-link">Submit</button>
-                    </div>
-                    <!-- <div class="control">
-                      <button class="button is-link is-light">Cancel</button>
-                    </div>
-                  </div> -->
-                </div>
+        <div class="section-heading-div">
+                <h1 style="text-align: center" class="title" id="contact-us-title">Contact Us</h1>
             </div>
+
+            
+
+        <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+        action="https://script.google.com/macros/s/AKfycby-fny41UaVPZSQWHpdYqY8hxOJ_b1MyQWKYsU3bhRQUySfiA/exec">
+            <!-- change the form action to your script url -->
+
+            <div class="form-elements" id="form-container">
+            <fieldset class="pure-group">
+                <label for="name" class="label">Name: </label>
+                <input id="name" class="input" name="name" placeholder="First and Last Name" />
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="email" class="label">Email Address:</label>
+                <input class="input" id="email" name="email" type="email" value=""
+                required placeholder="your.name@email.com"/>
+                <span class="email-invalid" style="display:none">
+                Must be a valid email address</span>
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="message" class="label">Message: </label>
+                <textarea class="textarea" id="message" name="message" rows="5"
+                placeholder="Message"></textarea>
+            </fieldset>
+
+            <div id="contact-button">
+                <button class="button is-primary" onclick="toggleThankYouMessage()" id="messageButton">
+                Send</button>
+            </div>
+
+
+            </div>
+            <!-- Customise the Thank you Message People See when they submit the form: -->
+        <div class="thankyou_message" style="display:none;" id="thankYouMessage" >
+                <h2 class="title">Thanks for contacting us,
+                        We will get back to you soon!</h2>
+            </div>
+        </form>
+     
+    </div>
+       
+        <!-- END -->
     </section>
+
     <!-- End Contact Section -->
     <!-- Location -->
     <section class="hero is-primary" id="location-section">
@@ -487,7 +485,7 @@
                         
                             <p style="text-align: center" id="location-heading"> <strong style="color: white">Living Life Counseling</strong>
                             </p>
-                            <p style="text-align: center"> 1504 Leander Rd </p>
+                            <p style="text-align: center"> 3008 Dawn Drive Ste 101</p>
                             <p style="text-align: center"> Georgetown, TX 78628</p>
                             
                                 <p style="text-align: center"> Email: <a
@@ -522,6 +520,13 @@
                 }
             });
         }
+
+
+//         <!-- Submit the Form to Google Using "AJAX" -->
+// <script data-cfasync="false" type="text/javascript"
+// src="form-submission-handler.js"><script>
+
+
     </script>
 </body>
 
