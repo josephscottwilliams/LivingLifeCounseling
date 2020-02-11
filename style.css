@@ -35,10 +35,10 @@ title {
     padding: 30px;
 }
 /* Power Statements */
-#power-statements {
-    padding: 75px 0px;
+/* #power-statements {
+    padding: 75px 0px; */
     /* background: yellow; */
-}
+
 .power-card-title {
     padding: 25px 0 0 0;
 }
@@ -194,10 +194,10 @@ div.hero-body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  #contact-section {
+  /* #contact-section {
     margin: 0 300px;
    
-}
+} */
 
   .new2LLCHeading {
       font-size: 24px;
@@ -243,7 +243,7 @@ div.hero-body {
     font-family: 'Bad Script', cursive;
 }
 
-#contact-custom {
+#contact-section {
     width: 500px;
    
 }
@@ -263,4 +263,47 @@ div.hero-body {
 }
 form {
     margin: -60px 0px;
+}
+
+/* ---------------------------------------------------------- */
+/* Additional Pages */
+
+/* Marriage and Family */
+.section-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.section-image {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.section-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.bio-contact-name {
+    text-align: center;
+    padding: 5px;
+}
+
+.bio-contact-info {
+    padding: 3px;
+    padding-left: 20px;
+}
+.bio {
+    padding: 2px 20px;
+    margin: auto 0;
+}
+.bio-name-and-info-div {
+    padding: 5px;
+}
+.bio-img {
+    border-radius: 4px;
 }
