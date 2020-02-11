@@ -53,6 +53,7 @@ title {
 }
 #hero-img {
     background: url(images/family_counseling.jpg) center / cover;
+    height: 100%;
     width: 100%;  
 }
 #hero-font {
