@@ -1,18 +1,31 @@
 /* Global Elements */
-body {
+/* body {
     font-family: 'Bad Script', cursive;
-}
-p,li {
+} */
+p, li {
     font-size: 20px;
     padding: 18px 18px;
     font-family: 'Noto Sans', sans-serif;
 }
 
-title {
-    font-size: 38px;
+title, h1 {
+    font-size: 45px;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
 }
 
 /* ---------------------------------------------------------------------- */
+
+#hero-img {
+    background: url(images/family_counseling.jpg) center / cover;
+    height: 100%;
+    width: 100%;  
+}
+#hero-font {
+    font-size: 70px;
+    font-family: 'Bad Script', cursive; 
+}
+
 /* General Elements */
 
 /* Navbar Section */
@@ -22,7 +35,7 @@ title {
 }
 .our-mission {
     padding: 18px 15px;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 /* Three Subtopics */
@@ -30,10 +43,10 @@ title {
     padding: 75px 0px;
     background-color: #eaeaea;
 }
-.power-text {
+/* .power-text {
     font-size: 25px;
     padding: 30px;
-}
+} */
 /* Power Statements */
 /* #power-statements {
     padding: 75px 0px; */
@@ -51,20 +64,14 @@ title {
 #navbar-custom {
     background: white;
 }
-#hero-img {
-    background: url(images/family_counseling.jpg) center / cover;
-    height: 100%;
-    width: 100%;  
-}
-#hero-font {
-    font-size: 70px;
-    font-family: 'Bad Script', cursive; 
-}
+
 /* #therapists-section {
     background: rgb(208, 208, 208);
 } */
 
-
+#become-quote {
+    font-size: 25px;
+}
 
 .label {
     font-size: 22px;
@@ -74,6 +81,7 @@ title {
 .image-blocks {
     padding: 15px 15px;
     border-radius: 19px;
+    overflow: auto;
 }
 
 #forms-section {
@@ -105,7 +113,7 @@ div.hero-body {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    /* border: none; */
     text-align: left;
     outline: none;
     font-size: 15px;
@@ -134,6 +142,7 @@ div.hero-body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+   
   }
   /* Accordion End */
 
@@ -146,9 +155,9 @@ div.hero-body {
 
   #faq-section {
       padding: 10px 200px;
-      background: url(images/scott-webb-hDyO6rr3kqk-unsplash.jpg);
+      background: url(images/fabrizio-conti-TZNPqhfKQmM-unsplash.jpg);
       background-size: cover;
-      height: 900px;
+      height: 100%;
       
   }
 
@@ -158,6 +167,7 @@ div.hero-body {
         position: relative;
         text-align: center;
         color: white;    
+       
       
 }
 
@@ -217,6 +227,7 @@ div.hero-body {
     background-color: rgb(236, 236, 236);
     padding: 30px 10px;
     margin: 10px 10px;
+    box-shadow: 3px 5px #a5a4a4;
 }
 
 .navbar-link, .navbar-item {
@@ -226,6 +237,8 @@ div.hero-body {
 
 .threeImageText {
    font-size: 24px; 
+   font-family: 'Bad Script', cursive;
+
 }
 
 .leave-message {
@@ -252,6 +265,7 @@ div.hero-body {
 #form-container {
     margin: 25px 25px;
 }
+
 #message {
     margin: 25px auto;
 }
@@ -309,3 +323,101 @@ form {
 .bio-img {
     border-radius: 4px;
 }
+
+
+
+
+
+@media (max-width: 1023px) {
+    p {
+        font-size: 25px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+/* 812 is max for iPhone X */
+    .section-header {
+        font-size: 25px;
+    }
+    h1 {
+        margin-top: 50px;
+        
+    }
+    p {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+ 
+    #hero-font {
+        font-size: 40px;
+        font-family: 'Bad Script', cursive; 
+    }
+
+    .hero-body {
+        padding: 0 0;
+        margin: 0 0;
+    }
+    #hero-img {
+        background: url(images/family_counseling.jpg) center / cover;
+        height: 100%;
+        width: 100%;  
+    }
+
+    #our-mission {
+        padding: 5px 5px;
+        width: 100%;
+    }
+    .our-mission {
+        padding: 10px 10px;
+    }
+    #three-subtopics {
+        display: block;
+        padding: 15px 0px;
+    }
+    .section-text {
+    position: relative;
+    top: 1%;
+    transform: none;
+}
+
+.section-image {
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    top: 0%;
+    transform: none;
+    border-radius: 9px;
+}
+/* #become-div-img {
+    float: right;
+} */
+#become-div-text-left {
+    width: 100%;
+}
+
+.reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+}
+.location-info {
+    padding: 0 0;
+    margin-bottom: 25px;
+}
+#faq-section {
+    padding: 10px 10px 60px 10px;
+  
+}
+.power-card {
+    padding: 3px;
+}
+.section-header {
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+.leave-message {
+    font-size: 12px;
+}
+
+}
+
