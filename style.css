@@ -203,7 +203,7 @@ div.hero-body {
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -281,9 +281,6 @@ div.hero-body {
     margin: 75px 5px 0px 5px;
     text-align: center;
 }
-form {
-    margin: 0px 0px;
-}
 
 /* ---------------------------------------------------------- */
 /* Additional Pages */
@@ -333,11 +330,11 @@ form {
 
 
 
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
     p {
         font-size: 25px;
     }
-}
+} */
 
 /* ----------------------------------------------------------------------------------- */
 @media (max-width: 768px) {
@@ -441,10 +438,12 @@ form {
 #google-map {
  
     width: 90%;
-    margin: 5px 5px;
+    margin: 5px 5px
     
 }
-
+/* #add-margin {
+    margin-top: 600px;
+} */
 
 }
 
