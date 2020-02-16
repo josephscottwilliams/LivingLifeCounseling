@@ -185,6 +185,8 @@ div.hero-body {
       background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,236,233,1) 0%, rgba(98,217,169,1) 57%);
       background-size: cover;
+    
+
       
   }
 
@@ -197,18 +199,15 @@ div.hero-body {
 
   
     /* Set a specific height */
-    height: 500px;
+    /* height: 500px; */
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* #contact-section {
-    margin: 0 300px;
-   
-} */
+  
 
   .new2LLCHeading {
       font-size: 24px;
@@ -257,14 +256,18 @@ div.hero-body {
     font-size: 30px;
     font-family: 'Bad Script', cursive;
 }
-
 #contact-section {
-    width: 500px;
+    margin: 0 300px;
    
 }
+/* #contact-section {
+    width: 500px;
+   
+} */
 
 #form-container {
     margin: 25px 25px;
+
 }
 
 #message {
@@ -426,18 +429,28 @@ form {
 
 #contact-section {
     width: 90%;
+    margin: 1px 1px;
+   padding: none;
    
 }
 #location-title {
-    margin: 75px 5px 0px 5px;
+    /* margin: 75px 5px 0px 5px; */
     text-align: center;
-    padding: none;
+    /* padding: none; */
 }
 #google-map {
  
     width: 90%;
-    margin: 10px auto;
-    border-radius: 4px;
-}
+    margin: 5px 5px;
+    
 }
 
+
+}
+
+/* @media (max-width: 350px) {
+
+    #add-stupid-margin {
+        margin-bottom: 500px;
+    }
+} */
