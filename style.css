@@ -158,6 +158,7 @@ div.hero-body {
       background: url(images/fabrizio-conti-TZNPqhfKQmM-unsplash.jpg);
       background-size: cover;
       height: 100%;
+      width: 100%;
       
   }
 
@@ -232,6 +233,7 @@ div.hero-body {
 .navbar-link, .navbar-item {
     font-size: 18px;
     font-weight: 600;
+    font-family: 'Bad Script', cursive;
 }
 
 .threeImageText {
@@ -256,10 +258,10 @@ div.hero-body {
     font-size: 30px;
     font-family: 'Bad Script', cursive;
 }
-#contact-section {
+/* #contact-section {
     margin: 0 300px;
    
-}
+} */
 /* #contact-section {
     width: 500px;
    
@@ -425,7 +427,7 @@ div.hero-body {
 }
 
 #contact-section {
-    width: 90%;
+ 
     margin: 1px 1px;
    padding: none;
    
