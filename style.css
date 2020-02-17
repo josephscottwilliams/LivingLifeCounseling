@@ -17,7 +17,7 @@ title, h1 {
 /* ---------------------------------------------------------------------- */
 
 #hero-img {
-    background: url(images/family_counseling.jpg) center / cover;
+    background: url(images/Adelaide72ppi\ -4.jpg) center / cover;
     height: 100%;
     width: 100%;  
 }
@@ -262,10 +262,10 @@ div.hero-body {
     margin: 0 300px;
    
 } */
-/* #contact-section {
+#contact-section {
     width: 500px;
    
-} */
+}
 
 #form-container {
     margin: 25px 25px;
@@ -326,6 +326,7 @@ div.hero-body {
 }
 .bio-img {
     border-radius: 4px;
+    width: 100%;
 }
 
 /* @media (max-width: 1023px) {
@@ -337,12 +338,16 @@ div.hero-body {
 /* ----------------------------------------------------------------------------------- */
 @media (max-width: 768px) {
 /* 812 is max for iPhone X */
+#hero-img {
+    background: url(images/Adelaide72ppi\ -3.jpg) center / cover;
+    /* height: 100%;
+    width: 100%;   */
+}
 .section-header {
     font-size: 25px;
 }
 h1 {
     margin-top: 50px;
-    
 }
 p {
     font-size: 18px;
@@ -360,11 +365,7 @@ p {
     padding: 0 0;
     margin: 0 0;
 }
-#hero-img {
-    background: url(images/family_counseling.jpg) center / cover;
-    height: 100%;
-    width: 100%;  
-}
+
 #our-mission {
     padding: 5px 5px;
     width: 100%;
@@ -406,21 +407,26 @@ p {
 #contact-section {
     margin: 1px 1px;
     padding: none; 
+    width: 90%
 }
 .location-info {
     padding: 40px 0 50px 0px;
 }
 #location-title {
     margin: 75px 5px 0px 5px;
-    text-align: center;
-    /* padding: none; */
 }
 #google-map {
     width: 100%;
     padding: 5px 5px;
     border-radius: 9px;
 }
+
+#contact-section {
+    width: 90%;
+    margin: 5px auto;
+  
 }
+
 /* Max Width 768 for Pages */
 /* Children and Adolescents */
 .title-backdrop {
@@ -432,3 +438,19 @@ p {
 .bio-contact-info {
     text-align: center;
 }
+.bio-img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+}
+
+
+
+/* Max Width 1024 */
+/* @media (min-width: 1024px) {
+#contact-section {
+    width: 90%;
+  
+}
+} */
