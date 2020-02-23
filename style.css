@@ -55,6 +55,7 @@ title, h1 {
     /* background: yellow; */
 .power-title {
     font-size: 2.8rem;
+   
 }
 .power-card-title {
     padding: 25px 0 0 0;
@@ -362,7 +363,7 @@ h1 {
 }
 p {
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 15px 20px;
 }
 .reverse-columns {
     flex-direction: column-reverse;
@@ -388,6 +389,13 @@ p {
     display: block;
     padding: 15px 0px;
 }
+
+.power-title {
+    font-size: 2.5rem;
+    padding: 10px 10px;
+   
+}
+
 .section-text {
     position: relative;
     top: 1%;
