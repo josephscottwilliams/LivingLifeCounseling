@@ -9,9 +9,11 @@ p, li {
 }
 
 title, h1 {
-    font-size: 45px;
     font-family: 'Bad Script', cursive;
     text-align: center;
+}
+.title{
+    font-size: 3.0rem;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -51,7 +53,9 @@ title, h1 {
 /* #power-statements {
     padding: 75px 0px; */
     /* background: yellow; */
-
+.power-title {
+    font-size: 2.8rem;
+}
 .power-card-title {
     padding: 25px 0 0 0;
 }
@@ -147,7 +151,7 @@ div.hero-body {
   /* Accordion End */
 
   .faq-question {
-      background-color: rgb(242, 255, 245);
+      /* background-color: rgb(242, 255, 245); */
       font-size: 20px;
       border-radius: 4px;
 
@@ -211,7 +215,7 @@ div.hero-body {
   
 
   .new2LLCHeading {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 580;
   }
 
@@ -224,21 +228,28 @@ div.hero-body {
 .card {
     border-style: solid 2px;
     border-radius: 5px;
-    background-color: rgb(236, 236, 236);
+    /* background-color: rgb(236, 236, 236); */
+    background-color: white;
     padding: 30px 10px;
     margin: 10px 10px;
     box-shadow: 3px 5px #a5a4a4;
 }
+
 
 .navbar-link, .navbar-item {
     font-size: 18px;
     font-weight: 600;
     font-family: 'Bad Script', cursive;
 }
+.main-navbar-links{
+    font-weight: 750;
+    font-size: 21px;
+}
 
 .threeImageText {
-   font-size: 24px; 
+   font-size: 30px; 
    font-family: 'Bad Script', cursive;
+   color:rgb(61, 172, 89);
 
 }
 
@@ -299,7 +310,7 @@ div.hero-body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    border-radius: 4px;
+    border-radius: 29px;
 }
 .section-text {
     position: relative;
