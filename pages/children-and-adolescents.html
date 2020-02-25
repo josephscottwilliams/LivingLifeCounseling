@@ -17,7 +17,7 @@
 
     <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation" id="navbar-custom">
             <div class="navbar-brand">
-                <a class="navbar-item" href="../index.html">
+                <a class="navbar-item" href="../index.html" id="llc-home">
                     <strong>Living Life Counseling</strong>
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -29,35 +29,33 @@
     
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                                <a class="navbar-item" href="../index.html">
-                                    <i class="fas fa-home"></i>
-                                </a>
+                            
                        
     
                         <div class="navbar-item has-dropdown is-hoverable">
-                                <a class="navbar-link" href="individual-counseling.html">
+                                <a class="navbar-link main-navbar-links" href="individual-counseling.html">
                                     Individual Counseling
                                 </a>
                             <div class="navbar-dropdown is-boxed">
-                                    <a class="navbar-item" href="#anxiety">
+                                    <a class="navbar-item" href="individual-counseling.html#anxiety">
                                         Anxiety
                                     </a>
-                                    <a class="navbar-item" href="#depression">
+                                    <a class="navbar-item" href="individual-counseling.html#depression">
                                         Depression
                                     </a>
-                                <a class="navbar-item" href="#relationship-issues">
+                                <a class="navbar-item" href="individual-counseling.html#relationship-issues">
                                     Relationship Issues
                                 </a>
-                                <a class="navbar-item" href="#anger-management">
+                                <a class="navbar-item" href="individual-counseling.html#anger-management">
                                     Anger Management
                                 </a>
-                                <a class="navbar-item" href="#grief-and-loss">
+                                <a class="navbar-item" href="individual-counseling.html#grief-and-loss">
                                     Grief and Loss
                                 </a>
                             </div>
                         </div>
                         <div class="navbar-item has-dropdown is-hoverable">
-                                <a class="navbar-link" href="marriage-and-family.html">
+                                <a class="navbar-link main-navbar-links" href="marriage-and-family.html">
                                     Marriage and Family
                                 </a>
                             <div class="navbar-dropdown is-boxed">
@@ -78,10 +76,13 @@
 
 
                         <div class="navbar-item has-dropdown is-hoverable">
-                                <a class="navbar-link" href="children-and-adolescents.html">
+                                <a class="navbar-link main-navbar-links" href="children-and-adolescents.html">
                                     Children and Adolescents
                                 </a>
                             <div class="navbar-dropdown is-boxed">
+                                    <a class="navbar-item" href="#academic-issues">
+                                            Academic Issues
+                                        </a>
                                     <a class="navbar-item" href="#adhd">
                                         ADHD
                                     </a>
@@ -98,18 +99,26 @@
                             </div>
                         </div>
     
+                        <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link main-navbar-links" href="#">
+                                    Additional Info
+                                </a>
+                            <div class="navbar-dropdown is-boxed">
+                                    <a class="navbar-item" href="../docs/ClientInfoForms.pdf" target="_blank">
+                                        Client Forms
+                                    </a>
+                                    <a class="navbar-item" href="therapists.html">
+                                        Therapists
+                                    </a>
                                 <a class="navbar-item" href="../index.html#faq-section">
                                     FAQ
                                 </a>
-                                <a class="navbar-item" href="therapists.html">
-                                    Therapists
-                                </a>
-                                <a class="navbar-item" href="../docs/ClientInfoForms.pdf" target="_blank">
-                                    Client Forms
-                                
                                 <a class="navbar-item" href="../index.html#contact-section">
                                     Contact
                                 </a>
+    
+                            </div>
+                        </div>
                 </div>
             </div>
         </nav>
@@ -134,8 +143,26 @@
 
     <section>
 
+            <div class="columns">
+                    <div class="column is-6 power-card" id="academic-issues">
+                        <div class="section-text" >
+                             <h1 class="title section-header" >Academic Issues</h1>
+                             <p>
+                                     Do you wonder why your child struggles so much with school sometimes? Why do they keep getting marks, or you keep getting calls? We can help you figure out how to help them and amke suggestions of what questions to ask the school, how to advocate for your child, and help them be successful.
+                             </p>
+                        </div>
+                         
+                    </div>
+                    <div class="column is-6 power-card">
+                         <img src="../images/academic-issues.jpg" alt="" class="image-blocks section-image">
+                    </div>
+                 </div>
+                 
 
-<div class="columns">
+<div class="columns reverse-columns">
+        <div class="column is-6 power-card">
+                <img src="../images/adhd.jpg" alt="" class="image-blocks section-image">
+           </div>
    <div class="column is-6 power-card" id="adhd">
        <div class="section-text">
             <h1 class="title section-header" >ADHD</h1>
@@ -145,15 +172,11 @@
        </div>
         
    </div>
-   <div class="column is-6 power-card">
-        <img src="../images/adhd.jpg" alt="" class="image-blocks section-image">
-   </div>
+   
 </div>
 
-<div class="columns reverse-columns">
-        <div class="column is-6 power-card" id="behavior-issues">
-                <img src="../images/family_counseling.jpg" alt="" class="image-blocks section-image">
-        </div>
+<div class="columns">
+       
         <div class="column is-6 power-card">
             <div class="section-text">
                 <h1 class="title section-header">Behavior Issues</h1>
@@ -163,12 +186,17 @@
                 </p>
             </div>
             </div>
+            <div class="column is-6 power-card" id="behavior-issues">
+                    <img src="../images/behavior-issues.jpg" alt="" class="image-blocks section-image">
+            </div>
             
        
      </div>
 
-<div class="columns">
-       
+<div class="columns reverse-columns">
+        <div class="column is-6 power-card">
+                <img src="../images/transitions copy.jpg" alt="" class="image-blocks section-image">
+        </div>
         <div class="column is-6 power-card" id="transitions">
             <div class="section-text">
                     <h1 class="title section-header">Transitions</h1>
@@ -179,16 +207,12 @@
             </div>
              
         </div>
-        <div class="column is-6 power-card">
-                <img src="../images/transitions copy.jpg" alt="" class="image-blocks section-image">
-        </div>
+      
        
      </div>
 
-     <div class="columns reverse-columns">
-            <div class="column is-6 power-card" id="foster-children">
-                    <img src="../images/foster.jpg" alt="" class="image-blocks section-image">
-               </div>
+     <div class="columns ">
+            
             <div class="column is-6 power-card">
                 <div class="section-text">
                         <h1 class="title section-header">Foster Children/CANS Testing</h1>
@@ -199,7 +223,9 @@
                 </div>
                 
             </div>
-            
+            <div class="column is-6 power-card" id="foster-children">
+                    <img src="../images/foster.jpg" alt="" class="image-blocks section-image">
+               </div>
          </div>
 
 

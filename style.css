@@ -18,6 +18,11 @@ title, h1 {
 
 /* ---------------------------------------------------------------------- */
 
+#llc-home {
+    /* font-weight: 900; */
+    font-size: 23px;
+}
+
 #hero-img {
     background: url(images/Adelaide72ppi\ -4.jpg) center / cover;
     height: 100%;
@@ -243,8 +248,8 @@ div.hero-body {
     font-family: 'Bad Script', cursive;
 }
 .main-navbar-links{
-    font-weight: 750;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .threeImageText {
@@ -420,8 +425,17 @@ p {
     margin-top: 45px;
     margin-bottom: 5px;
 }
+#become-quote {
+    font-size: 22px;
+}
 .leave-message {
     font-size: 12px;
+}
+.card {
+   
+    border-radius: 5px;
+    padding: 30px 30px;
+    margin: 10px 30px;
 }
 #contact-section {
     margin: 1px 1px;
@@ -467,9 +481,28 @@ p {
 
 
 /* Max Width 1024 */
-/* @media (min-width: 1024px) {
-#contact-section {
+@media (max-width: 1024px) {
+/* #contact-section {
     width: 90%;
   
-}
 } */
+.power-title {
+    font-size: 2.8rem;
+    margin: 50px 15px;
+   
+}
+#journey-margin {
+    margin-bottom: 50px;
+}
+.location-info {
+    padding: 15px;
+    margin-left: 23px;
+}
+}
+
+@media (max-width: 1300px) {
+    .navbar-menu {
+
+    }
+
+}

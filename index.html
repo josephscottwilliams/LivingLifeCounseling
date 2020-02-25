@@ -24,10 +24,11 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation" id="navbar-custom">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbar-custom">
         <div class="navbar-brand">
-            <a class="navbar-item main-navbar-links" href="index.html">
-                <strong>Living Life Counseling</strong>
+            <a class="navbar-item main-navbar-links" href="index.html" id="llc-home">
+                <strong >Living Life Counseling 
+                </strong>
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
@@ -35,11 +36,12 @@
                     <span aria-hidden="true"></span>
                   </a>
         </div>
+
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="index.html">
+                    <!-- <a class="navbar-item" href="index.html">
                         <i class="fas fa-home"></i>
-                    </a>
+                    </a> -->
                    
 
                     <div class="navbar-item has-dropdown is-hoverable">
@@ -85,10 +87,51 @@
                         </div>
                     </div>
 
-                    <a class="navbar-item main-navbar-links" href="pages/children-and-adolescents.html">
-                        Children &amp; Adolescents
-                    </a>
-                    <a class="navbar-item main-navbar-links" href="#faq-section">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link main-navbar-links" href="pages/children-and-adolescents.html">
+                                Children &amp; Adolescents
+                            </a>
+                        <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item" href="pages/children-and-adolescents.html#academic-issues">
+                                    Academic Issues
+                                </a>
+                                <a class="navbar-item" href="pages/children-and-adolescents.html#adhd">
+                                    ADHD
+                                </a>
+                                <a class="navbar-item" href="pages/children-and-adolescents.html#behavior-issues">
+                                    Behavior Issues
+                                </a>
+                            <a class="navbar-item" href="pages/children-and-adolescents.html#transitions">
+                                Transitions
+                            </a>
+                            <a class="navbar-item" href="pages/children-and-adolescents.html#foster-children">
+                                Foster Children/CANS Testing
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link main-navbar-links" href="#">
+                                Additional Info
+                            </a>
+                        <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item" href="docs/ClientInfoForms.pdf" target="_blank">
+                                    Client Forms
+                                </a>
+                                <a class="navbar-item" href="pages/therapists.html">
+                                    Therapists
+                                </a>
+                            <a class="navbar-item" href="#faq-section">
+                                FAQ
+                            </a>
+                            <a class="navbar-item" href="#contact-section">
+                                Contact
+                            </a>
+
+                        </div>
+                    </div>
+                    <!-- <a class="navbar-item main-navbar-links" href="#faq-section">
                         FAQ
                     </a>
                     <a class="navbar-item main-navbar-links" href="pages/therapists.html">
@@ -99,8 +142,15 @@
 
                         <a class="navbar-item main-navbar-links" href="#contact-section">
                             Contact
-                        </a>
+                        </a> -->
+
+
+                       
+
                 </div>
+                <div class="navbar-end">
+
+                    </div>
             </div>
 
     </nav>
@@ -148,13 +198,9 @@
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div id="three-subtopics">
-            <!-- <div>
-                <h1 class="title" style="text-align: center">
-                    About Us
-                </h1>
-            </div> -->
+           
             <div class="columns">
                 <div class="column is-4 container-custom">
                     <a href="pages/individual-counseling.html">
@@ -185,7 +231,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ---------------------------------------------------------------------- -->
     <section>
         <div class="columns">
@@ -213,7 +259,8 @@
             <div class="column is-6 power-card" id="become-div-text-left">
                 <div class="section-text" >
                     <h1 class="title power-title" style="text-align: center">Become</h1>
-                    <p style="text-align: center" ><i id="become-quote">"What lies behind you and what lies before you is nothing compared
+                    <p style="text-align: center" ><i id="become-quote">"What lies behind you and what lies before you 
+                        <br> is nothing compared
                             to what lies within you"</i> </p>
                     <p> Often get caught up in comparisons? Not feeling like you're good
                         enough, or have low self esteem? 
@@ -233,7 +280,7 @@
                 <div class="section-text">
                     <h1 class="title power-title" style="text-align: center">Life is a Journey</h1>
 
-                    <p> Many times we get caught up in achieving goals we have for life and we forget
+                    <p id="journey-margin"> Many times we get caught up in achieving goals we have for life and we forget
                         to enjoy the journey. Relationships
                         get tough, raising children may prove more difficult each day, maybe our parents are aging and have increasing health issues?
                         Many of us get caught in the misconception that we are a product of others, get bogged down, or
