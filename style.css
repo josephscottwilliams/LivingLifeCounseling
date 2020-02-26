@@ -17,6 +17,10 @@ title, h1 {
 }
 
 /* ---------------------------------------------------------------------- */
+#hero-address {
+    padding: 50px;
+    font-size: 35px;
+}
 .contact-small-div {
     text-align: center;
     font-size: 18px;
@@ -423,7 +427,10 @@ div.hero-body {
 
 @media (max-width: 768px) {
 /* 812 is max for iPhone X */
-
+#hero-address {
+    padding: 0;
+    font-size: 25px;
+}
 #hero-img {
     background: url(images/Adelaide72ppi\ -3.jpg) center / cover;
     /* height: 100%;
