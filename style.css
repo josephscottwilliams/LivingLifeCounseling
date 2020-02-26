@@ -429,6 +429,11 @@ p {
     font-size: 18px;
     padding: 15px 20px;
 }
+#email-center {
+    text-align: center;
+    padding: 0;
+    margin: 0 -16px;
+}
 .reverse-columns {
     flex-direction: column-reverse;
     display: flex;
