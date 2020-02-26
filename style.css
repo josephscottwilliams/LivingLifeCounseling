@@ -17,7 +17,14 @@ title, h1 {
 }
 
 /* ---------------------------------------------------------------------- */
-
+.contact-small-div {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    background: rgb(228, 228, 228);
+    margin: 0 0;
+    padding: 10px;
+}
 #llc-home {
     /* font-weight: 900; */
     font-size: 23px;
@@ -359,7 +366,7 @@ div.hero-body {
 
 .bio-contact-info {
     padding: 3px;
-    padding-left: 20px;
+    text-align: center;
 }
 .bio {
     padding: 2px 20px;
@@ -412,6 +419,7 @@ div.hero-body {
 
 
 /* ----------------------------------------------------------------------------------- */
+
 @media (max-width: 768px) {
 /* 812 is max for iPhone X */
 #hero-img {
@@ -558,6 +566,10 @@ p {
     width: 50%;
 }
 }
-
+@media (max-width: 374px) {
+    #email-center {
+        font-size: 15px;
+    }
+}
 
 
