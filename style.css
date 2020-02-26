@@ -36,6 +36,7 @@ title, h1 {
     width: 100%;  
 }
 #hero-font {
+    margin-top: -150px;
     font-size: 70px;
     font-family: 'Bad Script', cursive; 
 }
@@ -422,6 +423,7 @@ div.hero-body {
 
 @media (max-width: 768px) {
 /* 812 is max for iPhone X */
+
 #hero-img {
     background: url(images/Adelaide72ppi\ -3.jpg) center / cover;
     /* height: 100%;
@@ -447,8 +449,12 @@ p {
     display: flex;
 }
 #hero-font {
+    margin-top: -234px;
     font-size: 40px;
-    font-family: 'Bad Script', cursive; 
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: text-top;
 }
 .hero-body {
     padding: 0 0;
