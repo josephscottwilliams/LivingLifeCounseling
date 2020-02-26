@@ -438,6 +438,7 @@ div.hero-body {
 }
 .section-header {
     font-size: 35px;
+    padding: 5px;
 }
 h1 {
     margin-top: 50px;
@@ -456,7 +457,7 @@ p {
     display: flex;
 }
 #hero-font {
-    margin-top: -234px;
+    margin-top: -100px;
     font-size: 40px;
     font-family: 'Bad Script', cursive;
     text-align: center;
