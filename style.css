@@ -314,7 +314,11 @@ div.hero-body {
     background: url(images/Adelaide\ Bridge-2.jpg) center / cover;
 }
 #faq-section {
-    background: url(images/faq7_small.jpg);  
+    padding: 10px 200px;
+    background: url(images/faq6.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 .section-header {
     font-size: 35px;
@@ -462,9 +466,7 @@ p {
     #hero-img {
         background: url(images/Adelaide\ Bridge2-1_414.jpg) center / cover;
     }
-    #faq-section {
-        background: url(images/faq6.jpg);  
-    }
+
     #email-center {
         font-size: 15px;
     }
