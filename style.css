@@ -1,13 +1,9 @@
 /* Global Elements */
-/* body {
-    font-family: 'Bad Script', cursive;
-} */
 p, li {
     font-size: 20px;
     padding: 18px 18px;
     font-family: 'Noto Sans', sans-serif;
 }
-
 title, h1 {
     font-family: 'Bad Script', cursive;
     text-align: center;
@@ -15,12 +11,21 @@ title, h1 {
 .title{
     font-size: 3.0rem;
 }
-
+div.hero-body {
+    margin: 0 auto;
+}
 /* ---------------------------------------------------------------------- */
+#navbar-custom {
+    background: white;
+}
+/* hero section */
 #hero-address {
     padding: 50px;
     font-size: 35px;
     color: white;
+}
+#llc-home {
+    font-size: 23px;
 }
 .contact-small-div {
     text-align: center;
@@ -30,11 +35,6 @@ title, h1 {
     margin: 0 0;
     padding: 10px;
 }
-#llc-home {
-    /* font-weight: 900; */
-    font-size: 23px;
-}
-
 #hero-img {
     background: url(images/Adelaide72ppi\ -4.jpg) center / cover;
     height: 100%;
@@ -46,9 +46,7 @@ title, h1 {
     font-family: 'Bad Script', cursive; 
 }
 
-/* General Elements */
-
-/* Navbar Section */
+/* Mission Section */
 #our-mission {
     padding: 60px 80px 40px;
     width: 100%;
@@ -57,78 +55,34 @@ title, h1 {
     padding: 18px 15px;
     /* font-size: 25px; */
 }
-
-/* Three Subtopics */
-#three-subtopics {
+/* #three-subtopics {
     padding: 75px 0px;
     background-color: #eaeaea;
-}
-/* .power-text {
-    font-size: 25px;
-    padding: 30px;
 } */
-/* Power Statements */
-/* #power-statements {
-    padding: 75px 0px; */
-    /* background: yellow; */
+/* Power Statements Section */
 .power-title {
     font-size: 2.8rem;
-   
 }
 .power-card-title {
     padding: 25px 0 0 0;
 }
 .power-card {
     padding: 25px;
-    /* background: orange; */
-    /* margin: 15px 15px; */
 }
-
-#navbar-custom {
-    background: white;
-}
-
-/* #therapists-section {
-    background: rgb(208, 208, 208);
-} */
-
 #become-quote {
     font-size: 25px;
 }
-
-.label {
-    font-size: 22px;
-    font-family: 'Bad Script', cursive;
-
-}
+/* New to LLC Section */
 .image-blocks {
     padding: 15px 15px;
     border-radius: 19px;
     overflow: auto;
 }
-
-#forms-section {
-    /* background: rgb(192, 192, 192); */
-    margin: 20px 400px;
-   
+/* FAQ Section */
+.label {
+    font-size: 22px;
+    font-family: 'Bad Script', cursive;
 }
-
-#google-map {
-    display: block;
-    /* margin: 15px 15px 15px 40px; */
-    margin: 40px auto;
-    border-radius: 4px;
-}
-
-
-
-
-
-div.hero-body {
-    margin: 0 auto;
-}
-
-
 /* Accordion */
 .accordion {
     background-color: #eee;
@@ -142,11 +96,9 @@ div.hero-body {
     font-size: 15px;
     transition: 0.4s;
   }
-  
   .active, .accordion:hover {
     background-color: #ccc;
   }
-  
   .accordion:after {
     content: '\002B';
     color: #777;
@@ -154,109 +106,88 @@ div.hero-body {
     float: right;
     margin-left: 10px;
   }
-  
   .active:after {
     content: "\2212";
   }
-  
   .panel {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-   
   }
-  /* Accordion End */
-
-  .faq-question {
-      /* background-color: rgb(242, 255, 245); */
-      font-size: 20px;
-      border-radius: 4px;
-
-  }
-
-  #faq-section {
-      padding: 10px 200px;
-      background: url(images/faq7.jpg);
-      background-size: cover;
-      height: 100%;
-      width: 100%;
-      
-  }
-
-
-.container-custom {
- 
-        position: relative;
-        text-align: center;
-        color: white;    
-       
-      
+/* Accordion End */
+#thank-you-message {
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
 }
+.faq-question {
+    /* background-color: rgb(242, 255, 245); */
+    font-size: 20px;
+    border-radius: 4px;
 
-  .centered {
+}
+#faq-section {
+    padding: 10px 200px;
+    background: url(images/faq7.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+/* Location Section */
+#google-map {
+    display: block;
+    margin: 40px auto;
+    border-radius: 4px;
+}
+.container-custom {
+    position: relative;
+    text-align: center;
+    color: white;      
+}
+#location-section {
+    background-color: #241a00;
+    background-image: url("https://www.transparenttextures.com/patterns/tileable-wood-colored.png");    
+}
+.centered {
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-  }
- 
-  #location-section {
-
-      /* background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,236,233,1) 0%, rgba(98,217,169,1) 57%);
-      background-size: cover; */
-      background-color: #241a00;
-      background-image: url("https://www.transparenttextures.com/patterns/tileable-wood-colored.png");
-    
-
-      
-  }
-
+}
   /* parrallax */
-  .parallax {
+.parallax {
     /* The image used */
     background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.8)), url("images/plush-design-studio-q10VITrVYUM-unsplash.jpg");
-    /* opacity: .5; */
-    
-
-  
-    /* Set a specific height */
-    /* height: 500px; */
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-
   .new2LLCHeading {
       font-size: 28px;
       font-weight: 580;
   }
-
   ul, li {
     margin: 0;
     padding: 0;
     text-align: center;
     }
-
 .card {
     border-style: solid 2px;
     border-radius: 5px;
-    /* background-color: rgb(236, 236, 236); */
     background-color: white;
     padding: 30px 10px;
     margin: 10px 10px;
     box-shadow: 3px 5px #a5a4a4;
 }
-
-
 .navbar-link, .navbar-item {
     font-size: 18px;
     font-weight: 600;
@@ -266,22 +197,16 @@ div.hero-body {
     font-weight: 600;
     font-size: 20px;
 }
-
 .threeImageText {
    font-size: 30px; 
    font-family: 'Bad Script', cursive;
    color:rgb(61, 172, 89);
-
 }
-
 .leave-message {
     font-size: 15px;
 }
-
 .section-heading-div {
     margin: 25px 0 75px;
-    /* margin-bottom: 75px; */
-    
 }
 .location-info {
     color: black;
@@ -290,29 +215,19 @@ div.hero-body {
     border: 25px solid #B88846;
     border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
 }
-
 #location-heading {
     font-size: 35px;
     font-family: 'Bad Script', cursive;
 }
-/* #contact-section {
-    margin: 0 300px;
-   
-} */
 #contact-section {
     width: 500px;
-   
 }
-
 #form-container {
     margin: 25px 25px;
-
 }
-
 #message {
     margin: 25px auto;
 }
-
 .label {
     margin-top: 25px;
 }
@@ -320,16 +235,12 @@ div.hero-body {
     margin: 75px 5px 0px 5px;
     text-align: center;
 }
-
 #google-map-div {
     display: block;
     margin-left: -100px
 }
-
-
 /* ---------------------------------------------------------- */
-/* Additional Pages */
-
+/* Additional Pages ------------------------------------------*/
 /* Marriage and Family */
 .background-small-hero {
     /* background: url(images/tileable-wood-colored.png) center / cover;
@@ -338,8 +249,6 @@ div.hero-body {
     background-color: #241a00;
     background-image: url("https://www.transparenttextures.com/patterns/tileable-wood-colored.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
-
 }
 .page-title-header {
    font-size: 75px;
@@ -363,13 +272,10 @@ div.hero-body {
     top: 50%;
     transform: translateY(-50%);
 }
-
-
 .bio-contact-name {
     text-align: center;
     padding: 5px;
 }
-
 .bio-contact-info {
     padding: 3px;
     text-align: center;
@@ -386,26 +292,15 @@ div.hero-body {
     width: 100%;
 }
 
-/* @media (max-width: 1023px) {
-    p {
-        font-size: 25px;
-    }
-} */
-/* Max Width 1024 */
+/* Max Width 1024 -----------------------------------------------------------------------------------*/
 @media (max-width: 1024px) {
-    /* #contact-section {
-        width: 90%;
-      
-    } */
     .power-title {
         font-size: 2.8rem;
         margin: 50px 15px;
-       
     }
     #journey-margin {
         margin-bottom: 50px;
     }
-    
     #google-map-div {
         margin: 0 auto;
     }
@@ -414,25 +309,10 @@ div.hero-body {
         margin: 0 auto;
     }
     }
-    
-    /* @media (max-width: 1300px) {
-        .navbar-menu {
-    
-        }
-    
-    } */
-
-
-
-/* ----------------------------------------------------------------------------------- */
-
+/* Max Width 768px----------------------------------------------------------------------------------- */
 @media (max-width: 768px) {
-/* 812 is max for iPhone X */
-
 #hero-img {
     background: url(images/Adelaide72ppi\ -3.jpg) center / cover;
-    /* height: 100%;
-    width: 100%;   */
 }
 .section-header {
     font-size: 35px;
@@ -449,6 +329,9 @@ p {
     text-align: center;
     padding: 0;
     margin: 0 -16px;
+}
+#thank-you-message {
+    font-size: 20px;
 }
 .reverse-columns {
     flex-direction: column-reverse;
@@ -471,13 +354,10 @@ p {
     color: white;
     text-align: center;
     display: block;
-    /* position: absolute; */
     font-size: 20px;
-    /* margin: 110px 0 0 0; */
     font-weight: 700;
     padding: 0 0;
 }
-
 #our-mission {
     padding: 5px 5px;
     width: 100%;
@@ -489,13 +369,10 @@ p {
     display: block;
     padding: 15px 0px;
 }
-
 .power-title {
     font-size: 2.5rem;
-    padding: 10px 10px;
-   
+    padding: 10px 10px; 
 }
-
 .section-text {
     position: relative;
     top: 1%;
@@ -524,7 +401,6 @@ p {
         color: white;
         font-size: 35px;
         margin: 80px auto;
-
 }
 #become-quote {
     font-size: 22px;
@@ -533,7 +409,6 @@ p {
     font-size: 12px;
 }
 .card {
-   
     border-radius: 5px;
     padding: 30px 30px;
     margin: 10px 30px;
@@ -543,16 +418,12 @@ p {
     padding: none; 
     width: 90%
 }
-
 .location-info {
    padding: 5px;
-    width: 83%;
-    margin: 15px auto;
-    
-    
+   width: 83%;
+   margin: 15px auto;
 }
 #location-title {
-   
     margin: 75px 5px 0px 5px;
 }
 #google-map {
@@ -562,15 +433,11 @@ p {
     border-radius: 9px;
     margin: 0 auto;
 }
-
 #contact-section {
     width: 90%;
     margin: 5px auto;
-  
 }
-
-
-/* Max Width 768 for Pages */
+/* Max Width 768 for Pages --------------------*/
 /* Children and Adolescents */
 .title-backdrop {
     height: 150px;
@@ -578,7 +445,6 @@ p {
 .page-title-header {
     font-size: 40px;
     margin: 80px auto;
-   
 }
 .bio-contact-info {
     text-align: center;
@@ -589,6 +455,7 @@ p {
     width: 50%;
 }
 }
+/* Max Width 374-------------------------------------------------------------------------- */
 @media (max-width: 374px) {
     #email-center {
         font-size: 15px;
