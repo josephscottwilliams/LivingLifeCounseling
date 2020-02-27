@@ -312,7 +312,10 @@ div.hero-body {
 /* Max Width 768px----------------------------------------------------------------------------------- */
 @media (max-width: 768px) {
 #hero-img {
-    background: url(images/Adelaide72ppi\ -3.jpg) center / cover;
+    background: url(images/Adelaide\ Bridge-2.jpg) center / cover;
+}
+#faq-section {
+    background: url(images/faq7_small.jpg);  
 }
 .section-header {
     font-size: 35px;
@@ -456,10 +459,17 @@ p {
 }
 }
 /* Max Width 374-------------------------------------------------------------------------- */
-@media (max-width: 374px) {
+@media (max-width: 414px) {
+    #hero-img {
+        background: url(images/Adelaide\ Bridge2-1_414.jpg) center / cover;
+    }
+    #faq-section {
+        background: url(images/faq7_414.jpg);  
+    }
     #email-center {
         font-size: 15px;
     }
+
 }
 
 
