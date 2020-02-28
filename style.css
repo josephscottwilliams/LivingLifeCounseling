@@ -311,7 +311,7 @@ div.hero-body {
 /* Max Width 768px----------------------------------------------------------------------------------- */
 @media (max-width: 768px) {
 #hero-img {
-    background: url(images/Adelaide\ Bridge-2.jpg) center / cover;
+    background: url(images/Adelaide\ Bridge2-1.jpg) center / cover;
 }
 #faq-section {
     padding: 10px 200px;
