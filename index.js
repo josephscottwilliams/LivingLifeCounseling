@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+
+
 function toggleThankYouMessage() {
     // get the clock
     var thankYouMessage = document.getElementById('thankYouMessage');
