@@ -112,7 +112,7 @@
                             Therapists
                         </a>
                         <a class="navbar-item" href="#contact-section">
-                                Contact
+                            Contact
                         </a>
                         <a class="navbar-item" href="#faq-section">
                             FAQ
@@ -126,6 +126,18 @@
         </div>
     </nav>
     <!-- Navbar End ----------------------------------------------------------->
+    <!-- Notification Start -->
+    <div class="notification is-danger is-light" id="notification-custom" style="text-align: center">
+        <button class="delete"></button>
+        Due to COVID-19, we are taking extra precautions at our facilities to ensure the safety and welfare of our clients. 
+        <br>
+        We also offer <strong>Telehealth</strong> as an alternative to in-person sessions with our counselors. 
+        <br>
+        Call us for more details:
+        <a href="tel:+15129665405"> (512) 966-5405</a>
+    </div>
+
+    <!-- Notification End -->
     <!-- Hero Start------------------------------------------------------------>
     <section class="hero is-fullheight">
         <div class="hero-body" id="hero-img">
@@ -484,12 +496,7 @@
             <div class="columns">
                 <div class="column is-6" id="google-map-div">
 
-                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.000865281319!2d-97.69275976127896!3d30.663591953959266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644d6039bd64543%3A0xe1e8d0f8763f4ec2!2s3008%20Dawn%20Dr%20STE%20101%2C%20Georgetown%2C%20TX%2078628!5e0!3m2!1sen!2sus!4v1583017323958!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" id="google-map"></iframe> -->
-                   
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3431.949284500212!2d-97.69275318487654!3d30.66355658166131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x8644d6039bd64543%3A0xe1e8d0f8763f4ec2!2s3008%20Dawn%20Dr%20STE%20101%2C%20Georgetown%2C%20TX%2078628!3m2!1d30.6635566!2d-97.6905645!5e0!3m2!1sen!2sus!4v1581396751536!5m2!1sen!2sus"
-                        width="100%" height="90%" frameborder="0" style="border:0;" allowfullscreen=""
-                        id="google-map"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109898.65550204298!2d-97.73788806693021!3d30.596369744079194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644d700ba2a6319%3A0x8be6f8a6df21e3f8!2sLiving%20Life%20Counseling!5e0!3m2!1sen!2sus!4v1594001826543!5m2!1sen!2sus" width="100%" height="90%" frameborder="0" style="border:0;" allowfullscreen="" id="google-map"></iframe>
                     
                 </div>
                 <div class="column is-6 location-info">
@@ -529,6 +536,17 @@
                 }
             });
         }
+
+    // JS for deleting COVID/Telehealth notification:
+    document.addEventListener('DOMContentLoaded', () => {
+    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    $notification = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
+});
     </script>
 </body>
 </html>

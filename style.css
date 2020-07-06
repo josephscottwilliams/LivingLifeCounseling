@@ -18,6 +18,13 @@ div.hero-body {
 #navbar-custom {
     background: white;
 }
+#notification-custom {
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 0;
+    margin: 52px 0 0 0;
+    padding: 0 0;
+
+}
 /* hero section */
 #hero-address {
     padding: 50px;
